@@ -13,6 +13,12 @@ int main() {
   for (int i = 0; i < num_elem; i++) {
     std::cout << "c[" << i << "] = " << c[i] << "\n";
   }
+std::cout << "---------" << "\n";
+  std::cout << c[0] << "\n";
+    std::cout << c[2] 10<< "\n";
+      std::cout << c[4] << "\n";
+        std::cout << c[8] << "\n";
+          std::cout << c[9] << "\n";
 
   delete [] c;
   
